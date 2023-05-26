@@ -52,21 +52,21 @@ func (i *initUser) InitializeData(ctx context.Context) (next context.Context, er
 			UUID:        uuid.Must(uuid.NewV4()),
 			Username:    "admin",
 			Password:    adminPassword,
-			NickName:    "Mr.奇淼",
+			NickName:    "阿伟",
 			HeaderImg:   "https://qmplusimg.henrongyi.top/gva_header.jpg",
 			AuthorityId: 888,
-			Phone:       "17611111111",
-			Email:       "333333333@qq.com",
+			Phone:       "18077882299",
+			Email:       "3330125543@qq.com",
 		},
 		{
 			UUID:        uuid.Must(uuid.NewV4()),
-			Username:    "a303176530",
+			Username:    "awei",
 			Password:    password,
-			NickName:    "用户1",
+			NickName:    "阿伟的小弟",
 			HeaderImg:   "https:///qmplusimg.henrongyi.top/1572075907logo.png",
 			AuthorityId: 9528,
-			Phone:       "17611111111",
-			Email:       "333333333@qq.com"},
+			Phone:       "18077882288",
+			Email:       "test1234@qq.com"},
 	}
 	if err = db.Create(&entities).Error; err != nil {
 		return ctx, errors.Wrap(err, sysModel.SysUser{}.TableName()+"表数据初始化失败!")
@@ -91,7 +91,7 @@ func (i *initUser) DataInserted(ctx context.Context) bool {
 		return false
 	}
 	var record sysModel.SysUser
-	if errors.Is(db.Where("username = ?", "a303176530").
+	if errors.Is(db.Where("username = ?", "awei").
 		Preload("Authorities").First(&record).Error, gorm.ErrRecordNotFound) { // 判断是否存在数据
 		return false
 	}

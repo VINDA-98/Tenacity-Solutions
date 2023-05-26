@@ -149,13 +149,13 @@ const toolCards = ref([
     color: '#ff85c0',
     bg: 'rgba(255, 133, 192,.3)'
   },
-  {
-    label: '关于我们',
-    icon: 'user',
-    name: 'about',
-    color: '#5cdbd3',
-    bg: 'rgba(92, 219, 211,.3)'
-  }
+  // {
+  //   label: '关于我们',
+  //   icon: 'user',
+  //   name: 'about',
+  //   color: '#5cdbd3',
+  //   bg: 'rgba(92, 219, 211,.3)'
+  // }
 ])
 
 const router = useRouter()
