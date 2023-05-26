@@ -1,11 +1,11 @@
 package example
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/request"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/example"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
-	systemService "github.com/flipped-aurora/gin-vue-admin/server/service/system"
+	"github.com/VINDA-98/Tenacity-Solutions/server/global"
+	"github.com/VINDA-98/Tenacity-Solutions/server/model/common/request"
+	"github.com/VINDA-98/Tenacity-Solutions/server/model/example"
+	"github.com/VINDA-98/Tenacity-Solutions/server/model/system"
+	systemService "github.com/VINDA-98/Tenacity-Solutions/server/service/system"
 )
 
 type CustomerService struct{}

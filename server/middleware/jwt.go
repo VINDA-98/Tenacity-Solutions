@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
+	"github.com/VINDA-98/Tenacity-Solutions/server/utils"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/response"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
-	"github.com/flipped-aurora/gin-vue-admin/server/service"
+	"github.com/VINDA-98/Tenacity-Solutions/server/global"
+	"github.com/VINDA-98/Tenacity-Solutions/server/model/common/response"
+	"github.com/VINDA-98/Tenacity-Solutions/server/model/system"
+	"github.com/VINDA-98/Tenacity-Solutions/server/service"
 
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"

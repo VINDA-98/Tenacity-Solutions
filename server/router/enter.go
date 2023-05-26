@@ -1,8 +1,8 @@
 package router
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/router/example"
-	"github.com/flipped-aurora/gin-vue-admin/server/router/system"
+	"github.com/VINDA-98/Tenacity-Solutions/server/router/example"
+	"github.com/VINDA-98/Tenacity-Solutions/server/router/system"
 )
 
 type RouterGroup struct {

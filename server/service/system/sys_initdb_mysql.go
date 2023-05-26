@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/config"
+	"github.com/VINDA-98/Tenacity-Solutions/server/config"
 	"github.com/gookit/color"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
+	"github.com/VINDA-98/Tenacity-Solutions/server/utils"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system/request"
+	"github.com/VINDA-98/Tenacity-Solutions/server/global"
+	"github.com/VINDA-98/Tenacity-Solutions/server/model/system/request"
 	"github.com/gofrs/uuid"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

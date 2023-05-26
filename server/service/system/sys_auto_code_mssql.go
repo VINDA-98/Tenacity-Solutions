@@ -2,8 +2,8 @@ package system
 
 import (
 	"fmt"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system/response"
+	"github.com/VINDA-98/Tenacity-Solutions/server/global"
+	"github.com/VINDA-98/Tenacity-Solutions/server/model/system/response"
 )
 
 var AutoCodeMssql = new(autoCodeMssql)

@@ -2,8 +2,8 @@ package example
 
 import (
 	"context"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/example"
-	"github.com/flipped-aurora/gin-vue-admin/server/service/system"
+	"github.com/VINDA-98/Tenacity-Solutions/server/model/example"
+	"github.com/VINDA-98/Tenacity-Solutions/server/service/system"
 	"github.com/pkg/errors"
 	"gorm.io/gorm"
 )

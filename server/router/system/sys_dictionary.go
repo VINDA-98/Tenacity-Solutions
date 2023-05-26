@@ -1,8 +1,8 @@
 package system
 
 import (
-	v1 "github.com/flipped-aurora/gin-vue-admin/server/api/v1"
-	"github.com/flipped-aurora/gin-vue-admin/server/middleware"
+	v1 "github.com/VINDA-98/Tenacity-Solutions/server/api/v1"
+	"github.com/VINDA-98/Tenacity-Solutions/server/middleware"
 	"github.com/gin-gonic/gin"
 )
 

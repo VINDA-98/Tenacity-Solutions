@@ -1,8 +1,8 @@
 package utils
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	systemReq "github.com/flipped-aurora/gin-vue-admin/server/model/system/request"
+	"github.com/VINDA-98/Tenacity-Solutions/server/global"
+	systemReq "github.com/VINDA-98/Tenacity-Solutions/server/model/system/request"
 	"github.com/gin-gonic/gin"
 	"github.com/gofrs/uuid"
 )

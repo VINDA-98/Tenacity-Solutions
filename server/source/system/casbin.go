@@ -3,8 +3,8 @@ package system
 import (
 	"context"
 
+	"github.com/VINDA-98/Tenacity-Solutions/server/service/system"
 	adapter "github.com/casbin/gorm-adapter/v3"
-	"github.com/flipped-aurora/gin-vue-admin/server/service/system"
 	"github.com/pkg/errors"
 	"gorm.io/gorm"
 )

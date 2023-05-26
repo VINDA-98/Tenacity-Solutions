@@ -5,8 +5,8 @@ import (
 	"mime/multipart"
 	"time"
 
+	"github.com/VINDA-98/Tenacity-Solutions/server/global"
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
 	"go.uber.org/zap"
 )
 

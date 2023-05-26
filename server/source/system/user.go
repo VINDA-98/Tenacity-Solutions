@@ -2,9 +2,9 @@ package system
 
 import (
 	"context"
-	sysModel "github.com/flipped-aurora/gin-vue-admin/server/model/system"
-	"github.com/flipped-aurora/gin-vue-admin/server/service/system"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
+	sysModel "github.com/VINDA-98/Tenacity-Solutions/server/model/system"
+	"github.com/VINDA-98/Tenacity-Solutions/server/service/system"
+	"github.com/VINDA-98/Tenacity-Solutions/server/utils"
 	"github.com/gofrs/uuid"
 	"github.com/pkg/errors"
 	"gorm.io/gorm"

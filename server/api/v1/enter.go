@@ -1,8 +1,8 @@
 package v1
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/api/v1/example"
-	"github.com/flipped-aurora/gin-vue-admin/server/api/v1/system"
+	"github.com/VINDA-98/Tenacity-Solutions/server/api/v1/example"
+	"github.com/VINDA-98/Tenacity-Solutions/server/api/v1/system"
 )
 
 type ApiGroup struct {

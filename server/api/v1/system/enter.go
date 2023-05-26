@@ -1,6 +1,6 @@
 package system
 
-import "github.com/flipped-aurora/gin-vue-admin/server/service"
+import "github.com/VINDA-98/Tenacity-Solutions/server/service"
 
 type ApiGroup struct {
 	DBApi

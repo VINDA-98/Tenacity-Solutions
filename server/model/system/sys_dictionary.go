@@ -2,7 +2,7 @@
 package system
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
+	"github.com/VINDA-98/Tenacity-Solutions/server/global"
 )
 
 // 如果含有time.Time 请自行import time包

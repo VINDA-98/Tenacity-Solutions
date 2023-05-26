@@ -5,7 +5,7 @@ import (
 	"go/token"
 	"strings"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
+	"github.com/VINDA-98/Tenacity-Solutions/server/global"
 )
 
 // AutoCodeStruct 初始版本自动化代码工具
